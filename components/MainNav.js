@@ -24,6 +24,9 @@ export default function MainNav() {
   async function submitForm(e){
     e.preventDefault();
     const work=e.target.searchField.value;
+    if (!work) {
+      return; 
+    }
     const queryString=`title=true&q=${work}`;
     router.push(`/artwork?${queryString}`);
     setExpanded(false);

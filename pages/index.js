@@ -6,7 +6,7 @@
  * 
  * Name: Qing Zhang     Student ID: 130982218     Date: July 30, 2023
  *
- * Vercel App (Deployed) Link: _____________________________________________________ 
+ * Vercel App (Deployed) Link: https://assignment6-lycmnxv7w-castlehunter.vercel.app/ 
  * ********************************************************************************/
 
 import { Inter } from 'next/font/google'
